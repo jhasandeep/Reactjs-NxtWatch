@@ -44,6 +44,7 @@
     "start": "craco start",
     "build": "craco build",
     "test": "craco test",
+      "deploy": "gh-pages -d build"
     "lint": "eslint .",
     "lint:fix": "eslint --fix src/",
     "format": "prettier --write \"./src\"",
